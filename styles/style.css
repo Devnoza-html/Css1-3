@@ -103,8 +103,9 @@ h1 {
     padding: 15px 10px 12px 10px;
 }
 
-#stringListTitle {
+#stringTitle {
     color: #414651;
+    margin-bottom: 30px;
 }
 
 #stringList {
@@ -112,19 +113,26 @@ h1 {
     padding-left: 5px;
 }
 
+#rectangleOne, #rectangleTwo, #rectangleThree {
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 14px;
+    width: 14px;
+    background-color: black;
+    margin-right: 2px;
+    margin-bottom: -55px;
+    padding-bottom: -20px;
+    margin-right: 10px;
+}
+
 #unified, #extra, #vibrating {
     color: #C27512;
     font-size: 18px;
-    margin-bottom: 10px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
-#rectangleOne, #rectangleTwo, #rectangleThree {
-    padding-top: 24px;
-    padding-right: 10px;
-    height: 13px;
-}
 
-#flexOne, #flexTwo, #flexThree {
-    display: flex;
-    flex-direction: row;
-}
